@@ -9,10 +9,10 @@ export function LocalBusinessSchema({ page = "home" }: LocalBusinessSchemaProps)
     const schema = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://downhomedisposal.com/#organization",
+      "@id": "https://www.downhomedisposal.com/#organization",
       name: "Down Home Disposal",
       description: "Reliable weekly residential trash pickup serving rural Middle Tennessee. Affordable curbside garbage collection with 96-gallon cart included.",
-      url: "https://downhomedisposal.com",
+      url: "https://www.downhomedisposal.com",
       telephone: "+19313092245",
       email: "DHJunkRemovalandDemolition@gmail.com",
       priceRange: "$27/month",
@@ -119,7 +119,7 @@ export function LocalBusinessSchema({ page = "home" }: LocalBusinessSchemaProps)
   }, [page]);
 
   useEffect(() => {
-    const canonicalUrl = `https://downhomedisposal.com${
+    const canonicalUrl = `https://www.downhomedisposal.com${
       page === "service-areas" ? "/service-areas" : page === "privacy" ? "/privacy" : ""
     }`;
     

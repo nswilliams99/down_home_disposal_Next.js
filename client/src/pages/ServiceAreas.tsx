@@ -10,7 +10,7 @@ export default function ServiceAreas() {
   useEffect(() => {
     const title = "Trash Pickup Service Areas Franklin TN | Middle Tennessee Garbage Collection Schedule";
     const description = "Weekly residential trash pickup serving Franklin, Thompson's Station, Spring Hill, Columbia, and Pulaski TN. View our curbside garbage collection schedule by city and pickup day.";
-    const url = "https://downhomedisposal.com/service-areas";
+    const url = "https://www.downhomedisposal.com/service-areas";
     
     document.title = title;
     
@@ -33,7 +33,7 @@ export default function ServiceAreas() {
     setMetaTag("og:description", description);
     setMetaTag("og:url", url);
     setMetaTag("og:type", "website");
-    setMetaTag("og:image", `https://downhomedisposal.com${truckImage}`);
+    setMetaTag("og:image", `https://www.downhomedisposal.com${truckImage}`);
   }, []);
 
   const pickupSchedule = [

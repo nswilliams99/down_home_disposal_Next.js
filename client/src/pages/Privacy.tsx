@@ -7,7 +7,7 @@ export default function Privacy() {
   useEffect(() => {
     const title = "Privacy Policy & Terms of Service | Down Home Disposal Trash Service";
     const description = "Privacy policy, terms of service, and SMS terms for Down Home Disposal residential trash pickup service in Middle Tennessee.";
-    const url = "https://downhomedisposal.com/privacy";
+    const url = "https://www.downhomedisposal.com/privacy";
     
     document.title = title;
     
@@ -30,7 +30,7 @@ export default function Privacy() {
     setMetaTag("og:description", description);
     setMetaTag("og:url", url);
     setMetaTag("og:type", "website");
-    setMetaTag("og:image", `https://downhomedisposal.com${truckImage}`);
+    setMetaTag("og:image", `https://www.downhomedisposal.com${truckImage}`);
   }, []);
 
   return (

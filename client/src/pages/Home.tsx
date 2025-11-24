@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     const title = "Residential Trash Pickup Middle Tennessee | Down Home Disposal Franklin TN";
     const description = "Affordable residential trash pickup service in Franklin, Thompson's Station, Spring Hill, Columbia, and Pulaski TN. Weekly curbside garbage collection $27/month with free 96-gallon cart. Serving rural Middle Tennessee.";
-    const url = "https://downhomedisposal.com";
+    const url = "https://www.downhomedisposal.com";
     
     document.title = title;
     
