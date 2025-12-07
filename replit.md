@@ -5,12 +5,7 @@
 Down Home Disposal is a 3-page responsive website for a residential trash collection service operating in Middle Tennessee.
 
 **IMPORTANT: Next.js Migration (December 2025)**
-The site has been rebuilt in Next.js 15.0.5+ to address CVE-2025-55182 (React2Shell vulnerability). The new Next.js version is located in the `nextjs-app/` folder. To deploy to Vercel:
-1. Go to Vercel project settings
-2. Set Root Directory to `nextjs-app`
-3. Redeploy
-
-Or move the nextjs-app contents to root and push to GitHub.
+The site has been rebuilt in Next.js 15.5.7 to address CVE-2025-55182 (React2Shell vulnerability). This is the latest patched version per Vercel's security advisory.
 
 The application serves as an informational and marketing platform for a local waste management business offering weekly curbside trash pickup at $27/month with a 96-gallon rolling cart included.
 
