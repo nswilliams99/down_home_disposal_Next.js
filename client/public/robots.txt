@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.downhomedisposal.com/sitemap.xml
-
-# Crawl delay (optional - be polite to search engines)
-Crawl-delay: 1
