@@ -1,0 +1,132 @@
+Skip to content
+Trash Joes Inc
+Trash Joes Inc
+
+Pro
+
+down-home-disposal-tn
+
+H6R2AJPRs
+
+
+Find…
+F
+
+Deployment Details
+Created
+nate-8530 Avatar
+nate-8530
+1m ago
+Status
+Ready
+Latest
+Duration
+43s
+Just now
+Environment
+Production
+Current
+Domains
+www.downhomedisposal.com
++2
+down-home-disposal-tn-git-main-trash-joes-inc.vercel.app
+down-home-disposal-cbthkylxk-trash-joes-inc.vercel.app
+Source
+main
+19e136a
+Configure Vercel to correctly build and deploy the Next.js website
+
+Deployment Settings
+Fluid Compute
+Deployment Protection
+Skew Protection
+Cold Start Prevention
+Build Logs
+43s
+1 line selected
+Find in logs
+CtrlF
+18:37:04.620 
+Running build in Washington, D.C., USA (East) – iad1 (Turbo Build Machine)
+18:37:04.621 
+Build machine configuration: 30 cores, 60 GB
+18:37:04.705 
+Cloning github.com/nswilliams99/down_home_disposal (Branch: main, Commit: 19e136a)
+18:37:04.706 
+Previous build caches not available.
+18:37:11.891 
+Cloning completed: 7.186s
+18:37:12.170 
+Running "vercel build"
+18:37:12.528 
+Vercel CLI 49.1.2
+18:37:12.749 
+WARNING: You should not upload the `.next` directory.
+18:37:12.753 
+Running "install" command: `npm install --include=dev`...
+18:37:18.542 
+18:37:18.542 
+added 166 packages, and audited 167 packages in 6s
+18:37:18.542 
+18:37:18.542 
+42 packages are looking for funding
+18:37:18.542 
+  run `npm fund` for details
+18:37:18.544 
+18:37:18.544 
+2 vulnerabilities (1 low, 1 high)
+18:37:18.544 
+18:37:18.544 
+To address all issues, run:
+18:37:18.544 
+  npm audit fix
+18:37:18.544 
+18:37:18.544 
+Run `npm audit` for details.
+18:37:18.586 
+Detected Next.js version: 15.5.7
+18:37:18.586 
+Running "npm run build"
+18:37:18.679 
+18:37:18.680 
+> down-home-disposal@1.0.0 build
+18:37:18.680 
+> next build
+18:37:18.680 
+Deployment Summary
+Deployment Checks
+Assigning Custom Domains
+Runtime Logs
+
+View and debug runtime logs & errors
+
+Observability
+
+Monitor app health & performance
+
+Speed Insights
+
+Not Enabled
+Performance metrics from real users
+
+Web Analytics
+
+Not Enabled
+Analyze visitors & traffic in real-time
+
+Home
+Docs
+Knowledge Base
+Academy
+Help
+Contact
+All systems normal.
+
+Select a display theme:
+
+system
+
+light
+
+dark
+down-home-disposal-tn – Deployment Overview – Vercel
