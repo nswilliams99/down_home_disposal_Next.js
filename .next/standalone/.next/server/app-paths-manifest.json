@@ -1,7 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/page": "app/page.js",
-  "/service-areas/page": "app/service-areas/page.js",
-  "/privacy/page": "app/privacy/page.js"
-}

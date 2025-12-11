@@ -1,0 +1,129 @@
+Skip to content
+Trash Joes Inc
+Trash Joes Inc
+
+Pro
+
+down-home-disposal-tn
+
+6micTNF9V
+
+
+Find…
+F
+
+Deployment Details
+Build Failed
+No Output Directory named "public" found after the Build completed. Configure the Output Directory in your Project Settings. Alternatively, configure vercel.json#outputDirectory.
+
+Created
+nate-8530 Avatar
+nate-8530
+1d ago
+Status
+Error
+Stale
+Duration
+51s
+1d ago
+Environment
+Production
+Domains
+down-home-disposal-tn-git-main-trash-joes-inc.vercel.app
+down-home-disposal-jptr4txyl-trash-joes-inc.vercel.app
+Source
+main
+4cd2ef2
+Saved progress at the end of the loop
+
+Deployment Settings
+Fluid Compute
+Deployment Protection
+Skew Protection
+Cold Start Prevention
+Build Logs
+51s
+54 lines
+Find in logs
+CtrlF
+10:53:29.608 
+   Generating static pages (0/7) ...
+10:53:30.434 
+   Generating static pages (1/7) 
+10:53:30.434 
+   Generating static pages (3/7) 
+10:53:30.434 
+   Generating static pages (5/7) 
+10:53:30.434 
+ ✓ Generating static pages (7/7)
+10:53:31.254 
+   Finalizing page optimization ...
+10:53:31.254 
+   Collecting build traces ...
+10:53:50.315 
+10:53:50.318 
+Route (app)                                 Size  First Load JS
+10:53:50.319 
+┌ ○ /                                      11 kB         124 kB
+10:53:50.319 
+├ ○ /_not-found                            994 B         103 kB
+10:53:50.319 
+├ ○ /privacy                               127 B         102 kB
+10:53:50.319 
+├ ○ /service-areas                         162 B         105 kB
+10:53:50.319 
+└ ○ /sitemap.xml                           127 B         102 kB
+10:53:50.319 
++ First Load JS shared by all             102 kB
+10:53:50.319 
+  ├ chunks/255-47484af636b98715.js       45.8 kB
+10:53:50.319 
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+10:53:50.319 
+  └ other shared chunks (total)          1.92 kB
+10:53:50.319 
+10:53:50.319 
+10:53:50.319 
+○  (Static)  prerendered as static content
+10:53:50.320 
+10:53:50.370 
+Error: No Output Directory named "public" found after the Build completed. Configure the Output Directory in your Project Settings. Alternatively, configure vercel.json#outputDirectory.
+10:53:50.371 
+Learn More: https://vercel.link/missing-public-directory
+Deployment Summary
+Deployment Checks
+Assigning Custom Domains
+Runtime Logs
+
+View and debug runtime logs & errors
+
+Observability
+
+Monitor app health & performance
+
+Speed Insights
+
+Not Enabled
+Performance metrics from real users
+
+Web Analytics
+
+Not Enabled
+Analyze visitors & traffic in real-time
+
+Home
+Docs
+Knowledge Base
+Academy
+Help
+Contact
+All systems normal.
+
+Select a display theme:
+
+system
+
+light
+
+dark
+down-home-disposal-tn – Deployment Overview
