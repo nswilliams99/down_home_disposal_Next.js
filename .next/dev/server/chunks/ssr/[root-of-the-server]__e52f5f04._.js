@@ -225,9 +225,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function LocalBusinessSchema() {
     const schema = {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
         "@id": "https://www.downhomedisposal.com/#organization",
-        name: "Down Home Disposal",
+        "@id": "https://www.downhomedisposal.com/#organization",
         description: "Reliable weekly residential trash pickup serving rural Middle Tennessee. Affordable curbside garbage collection with 96-gallon cart included.",
         url: "https://www.downhomedisposal.com",
         telephone: "+19313092245",
@@ -302,8 +301,7 @@ function LocalBusinessSchema() {
                         description: "Weekly curbside trash collection with 96-gallon rolling cart provided",
                         serviceType: "Residential Waste Collection",
                         provider: {
-                            "@type": "LocalBusiness",
-                            name: "Down Home Disposal"
+                            "@id": "https://www.downhomedisposal.com/#organization"
                         }
                     },
                     price: "27.00",
@@ -329,7 +327,7 @@ function LocalBusinessSchema() {
         }
     }, void 0, false, {
         fileName: "[project]/components/local-business-schema.tsx",
-        lineNumber: 97,
+        lineNumber: 95,
         columnNumber: 5
     }, this);
 }

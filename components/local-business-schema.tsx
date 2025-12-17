@@ -1,9 +1,8 @@
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
     "@id": "https://www.downhomedisposal.com/#organization",
-    name: "Down Home Disposal",
+    "@id": "https://www.downhomedisposal.com/#organization",
     description: "Reliable weekly residential trash pickup serving rural Middle Tennessee. Affordable curbside garbage collection with 96-gallon cart included.",
     url: "https://www.downhomedisposal.com",
     telephone: "+19313092245",
@@ -72,8 +71,7 @@ export function LocalBusinessSchema() {
             description: "Weekly curbside trash collection with 96-gallon rolling cart provided",
             serviceType: "Residential Waste Collection",
             provider: {
-              "@type": "LocalBusiness",
-              name: "Down Home Disposal",
+              "@id": "https://www.downhomedisposal.com/#organization",
             },
           },
           price: "27.00",
