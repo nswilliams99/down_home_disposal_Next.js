@@ -100,10 +100,52 @@ export default function ServiceAreas() {
                     ))}
                   </ul>
                   <p className="text-muted-foreground">{schedule.description}</p>
+                  {schedule.day === "Tuesday" && (
+                    <Link 
+                      href="/franklin-tn-garbage-pickup" 
+                      className="inline-block mt-3 text-primary hover:underline font-medium"
+                      data-testid="link-franklin-details"
+                    >
+                      View Franklin Area Details &rarr;
+                    </Link>
+                  )}
                 </CardContent>
               </Card>
             ))}
           </div>
+
+          <section className="mt-12 mb-12">
+            <h2 className="text-2xl font-bold mb-6">Service by County</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link 
+                href="/williamson-county-trash-pickup"
+                className="block p-6 bg-card rounded-lg border hover:shadow-md transition-shadow"
+                data-testid="link-williamson-county"
+              >
+                <h3 className="text-xl font-semibold mb-2">Williamson County</h3>
+                <p className="text-muted-foreground mb-2">
+                  Serving Leiper&apos;s Fork, Arno, College Grove, and unincorporated areas outside Franklin city limits.
+                </p>
+                <span className="text-primary font-medium">
+                  View Details &rarr;
+                </span>
+              </Link>
+              
+              <Link 
+                href="/franklin-tn-garbage-pickup"
+                className="block p-6 bg-card rounded-lg border hover:shadow-md transition-shadow"
+                data-testid="link-franklin-county"
+              >
+                <h3 className="text-xl font-semibold mb-2">Franklin TN Area</h3>
+                <p className="text-muted-foreground mb-2">
+                  Weekly Tuesday pickup for rural Franklin and surrounding Williamson County communities.
+                </p>
+                <span className="text-primary font-medium">
+                  View Details &rarr;
+                </span>
+              </Link>
+            </div>
+          </section>
 
           <Card className="bg-muted/30" data-testid="card-service-details">
             <CardHeader>

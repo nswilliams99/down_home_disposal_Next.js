@@ -503,6 +503,16 @@ function ServiceAreas() {
                                                     fileName: "[project]/app/service-areas/page.tsx",
                                                     lineNumber: 102,
                                                     columnNumber: 19
+                                                }, this),
+                                                schedule.day === "Tuesday" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/franklin-tn-garbage-pickup",
+                                                    className: "inline-block mt-3 text-primary hover:underline font-medium",
+                                                    "data-testid": "link-franklin-details",
+                                                    children: "View Franklin Area Details →"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 104,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
@@ -521,6 +531,102 @@ function ServiceAreas() {
                             lineNumber: 84,
                             columnNumber: 11
                         }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "mt-12 mb-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl font-bold mb-6",
+                                    children: "Service by County"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/service-areas/page.tsx",
+                                    lineNumber: 118,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid md:grid-cols-2 gap-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/williamson-county-trash-pickup",
+                                            className: "block p-6 bg-card rounded-lg border hover:shadow-md transition-shadow",
+                                            "data-testid": "link-williamson-county",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-xl font-semibold mb-2",
+                                                    children: "Williamson County"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 125,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-muted-foreground mb-2",
+                                                    children: "Serving Leiper's Fork, Arno, College Grove, and unincorporated areas outside Franklin city limits."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 126,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-primary font-medium",
+                                                    children: "View Details →"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 129,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/service-areas/page.tsx",
+                                            lineNumber: 120,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/franklin-tn-garbage-pickup",
+                                            className: "block p-6 bg-card rounded-lg border hover:shadow-md transition-shadow",
+                                            "data-testid": "link-franklin-county",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-xl font-semibold mb-2",
+                                                    children: "Franklin TN Area"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 139,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-muted-foreground mb-2",
+                                                    children: "Weekly Tuesday pickup for rural Franklin and surrounding Williamson County communities."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 140,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-primary font-medium",
+                                                    children: "View Details →"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/service-areas/page.tsx",
+                                                    lineNumber: 143,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/service-areas/page.tsx",
+                                            lineNumber: 134,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/service-areas/page.tsx",
+                                    lineNumber: 119,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/service-areas/page.tsx",
+                            lineNumber: 117,
+                            columnNumber: 11
+                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
                             className: "bg-muted/30",
                             "data-testid": "card-service-details",
@@ -531,12 +637,12 @@ function ServiceAreas() {
                                         children: "Service Details"
                                     }, void 0, false, {
                                         fileName: "[project]/app/service-areas/page.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 152,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/service-areas/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 151,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -550,30 +656,30 @@ function ServiceAreas() {
                                                         className: "h-5 w-5 text-primary flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/service-areas/page.tsx",
-                                                        lineNumber: 120,
+                                                        lineNumber: 162,
                                                         columnNumber: 21
                                                     }, this),
                                                     detail
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/app/service-areas/page.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 157,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/app/service-areas/page.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/service-areas/page.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 154,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service-areas/page.tsx",
-                            lineNumber: 108,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this)
                     ]
@@ -598,7 +704,7 @@ function ServiceAreas() {
                             children: "Need Trash Pickup in Your Rural Tennessee Area?"
                         }, void 0, false, {
                             fileName: "[project]/app/service-areas/page.tsx",
-                            lineNumber: 132,
+                            lineNumber: 174,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -607,7 +713,7 @@ function ServiceAreas() {
                             children: "If you live in a rural area near Franklin TN, Spring Hill, Columbia, Thompson's Station, or Pulaski and don't see your neighborhood listed, give us a call. We're expanding our Middle Tennessee residential trash collection routes and may be able to add your area to our schedule."
                         }, void 0, false, {
                             fileName: "[project]/app/service-areas/page.tsx",
-                            lineNumber: 135,
+                            lineNumber: 177,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -624,19 +730,19 @@ function ServiceAreas() {
                                                 className: "mr-2 h-5 w-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/service-areas/page.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 183,
                                                 columnNumber: 17
                                             }, this),
                                             "Call (931) 309-2245"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/service-areas/page.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 182,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/service-areas/page.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 181,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -651,25 +757,25 @@ function ServiceAreas() {
                                                 className: "mr-2 h-5 w-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/service-areas/page.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 189,
                                                 columnNumber: 17
                                             }, this),
                                             "Email Us"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/service-areas/page.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/service-areas/page.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 187,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service-areas/page.tsx",
-                            lineNumber: 138,
+                            lineNumber: 180,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -680,23 +786,23 @@ function ServiceAreas() {
                                 children: "Learn more about our affordable $27/month residential trash service"
                             }, void 0, false, {
                                 fileName: "[project]/app/service-areas/page.tsx",
-                                lineNumber: 153,
+                                lineNumber: 195,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/service-areas/page.tsx",
-                            lineNumber: 152,
+                            lineNumber: 194,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/service-areas/page.tsx",
-                    lineNumber: 131,
+                    lineNumber: 173,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/service-areas/page.tsx",
-                lineNumber: 130,
+                lineNumber: 172,
                 columnNumber: 7
             }, this)
         ]

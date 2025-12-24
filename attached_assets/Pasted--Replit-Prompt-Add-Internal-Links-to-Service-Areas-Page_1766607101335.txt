@@ -1,0 +1,89 @@
+# Replit Prompt: Add Internal Links to Service Areas Page
+
+Copy and paste this into Replit:
+
+---
+
+**Task:** Update the Service Areas page to add internal links to the two new location pages. This creates a hub-and-spoke structure for SEO.
+
+**Files to edit:** The Service Areas page component (likely `app/service-areas/page.tsx` or a component it imports)
+
+**Changes needed:**
+
+## 1. In the Tuesday Pickup Section
+
+Find where it lists "Franklin (unincorporated areas)" and add a link below the description:
+
+```tsx
+<a 
+  href="/franklin-tn-garbage-pickup" 
+  className="inline-block mt-2 text-green-600 dark:text-green-400 hover:underline font-medium"
+>
+  View Franklin Area Details →
+</a>
+```
+
+## 2. Add a "Service by County" Section
+
+After the "Weekly Trash Pickup Schedule by City" section, add a new section:
+
+```tsx
+{/* County Service Pages */}
+<section className="mt-12">
+  <h2 className="text-2xl font-bold mb-6">Service by County</h2>
+  <div className="grid md:grid-cols-2 gap-6">
+    <a 
+      href="/williamson-county-trash-pickup"
+      className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+    >
+      <h3 className="text-xl font-semibold mb-2">Williamson County</h3>
+      <p className="text-gray-600 dark:text-gray-300 mb-2">
+        Serving Leiper's Fork, Arno, College Grove, and unincorporated areas outside Franklin city limits.
+      </p>
+      <span className="text-green-600 dark:text-green-400 font-medium">
+        View Details →
+      </span>
+    </a>
+    
+    <a 
+      href="/franklin-tn-garbage-pickup"
+      className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+    >
+      <h3 className="text-xl font-semibold mb-2">Franklin TN Area</h3>
+      <p className="text-gray-600 dark:text-gray-300 mb-2">
+        Weekly Tuesday pickup for rural Franklin and surrounding Williamson County communities.
+      </p>
+      <span className="text-green-600 dark:text-green-400 font-medium">
+        View Details →
+      </span>
+    </a>
+  </div>
+</section>
+```
+
+## 3. Verify Internal Linking
+
+After making changes, the Service Areas page should link to:
+- `/franklin-tn-garbage-pickup`
+- `/williamson-county-trash-pickup`
+
+And both of those pages should link back to `/service-areas` (they already do in their content).
+
+## Why This Matters
+
+- No orphan pages (every page has internal links pointing to it)
+- Hub-and-spoke structure helps Google understand site hierarchy
+- Users can naturally discover location-specific content
+- Passes link equity from the Service Areas page to the new pages
+
+## After Making Changes
+
+```bash
+git add .
+git commit -m "Add internal links to Franklin and Williamson County pages"
+git push
+```
+
+---
+
+**Note:** Match the existing styling patterns in the Service Areas page. The classes above use Tailwind with dark mode support—adjust if your existing styles differ.
