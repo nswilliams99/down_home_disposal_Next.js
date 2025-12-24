@@ -1,0 +1,170 @@
+# Replit Prompt: Fix Homepage SEO Issues
+
+Copy and paste this into Replit:
+
+---
+
+**Task:** Fix three SEO issues on the homepage identified in site audit.
+
+**Issues to fix:**
+1. Homepage not in sitemap
+2. Homepage missing canonical tag
+3. Homepage ILR (Internal Link Ratio) is low at 50
+
+---
+
+## 1. Add Homepage to Sitemap
+
+**File:** `app/sitemap.ts`
+
+Add the homepage as the first entry with highest priority:
+
+```typescript
+import { MetadataRoute } from 'next';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: 'https://www.downhomedisposal.com/',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1.0,
+    },
+    {
+      url: 'https://www.downhomedisposal.com/service-areas',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.downhomedisposal.com/franklin-tn-garbage-pickup',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.downhomedisposal.com/williamson-county-trash-pickup',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.downhomedisposal.com/privacy',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+  ];
+}
+```
+
+---
+
+## 2. Add Canonical Tag to Homepage
+
+**File:** `app/page.tsx` (or wherever homepage metadata is defined)
+
+Add the `alternates` field to the metadata export:
+
+```typescript
+export const metadata: Metadata = {
+  title: 'Residential Trash Pickup Middle Tennessee | Down Home Disposal Franklin TN',
+  description: 'Affordable residential trash pickup service in Franklin, Thompson\'s Station, Spring Hill, Columbia, and Pulaski TN. Weekly curbside garbage collection $27/month with free 96-gallon cart. Serving rural Middle Tennessee.',
+  alternates: {
+    canonical: 'https://www.downhomedisposal.com/',
+  },
+  openGraph: {
+    // existing openGraph fields...
+  },
+};
+```
+
+---
+
+## 3. Improve Homepage Internal Linking
+
+The homepage has an ILR of 50 (other pages are 100). This means internal pages aren't linking back to the homepage enough.
+
+**Add homepage links to these pages:**
+
+### In Service Areas page (`app/service-areas/page.tsx`):
+
+Add a "Back to Home" or logo link, and ensure the header logo links to `/`.
+
+### In Franklin page (`app/franklin-tn-garbage-pickup/page.tsx`):
+
+Add near the bottom CTA:
+
+```tsx
+<p className="mt-4 text-sm opacity-75">
+  <a href="/" className="underline hover:no-underline">
+    ← Back to Down Home Disposal
+  </a>
+</p>
+```
+
+### In Williamson County page (`app/williamson-county-trash-pickup/page.tsx`):
+
+Same addition:
+
+```tsx
+<p className="mt-4 text-sm opacity-75">
+  <a href="/" className="underline hover:no-underline">
+    ← Back to Down Home Disposal
+  </a>
+</p>
+```
+
+### In Privacy page (`app/privacy/page.tsx`):
+
+```tsx
+<p className="mt-4">
+  <a href="/" className="text-green-600 hover:underline">
+    ← Return to Home
+  </a>
+</p>
+```
+
+---
+
+## 4. Verify Header Component
+
+**File:** Check your header/nav component
+
+Make sure the logo and "Home" nav link both use:
+
+```tsx
+<a href="/">Down Home Disposal</a>
+```
+
+Or with Next.js Link:
+
+```tsx
+import Link from 'next/link';
+
+<Link href="/">Down Home Disposal</Link>
+```
+
+---
+
+## After Making Changes
+
+```bash
+git add .
+git commit -m "Fix homepage SEO: add to sitemap, canonical tag, improve internal linking"
+git push
+```
+
+## Verify
+
+After deploy, check:
+1. `https://www.downhomedisposal.com/sitemap.xml` — homepage should be listed first
+2. View source on homepage — look for `<link rel="canonical" href="https://www.downhomedisposal.com/">`
+3. Re-run Semrush site audit to confirm issues resolved
+
+---
+
+**Why this matters:**
+- Sitemap tells Google which pages exist and their priority
+- Canonical prevents duplicate content issues
+- Internal linking distributes page authority and helps crawlers navigate
