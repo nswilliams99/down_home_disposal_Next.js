@@ -237,6 +237,11 @@ export default function Privacy() {
             <p className="text-muted-foreground" data-testid="text-contact-location">
               Gordonsville, TN
             </p>
+            <p className="mt-4">
+              <a href="/" className="text-primary hover:underline">
+                &larr; Return to Home
+              </a>
+            </p>
           </div>
         </div>
       </section>

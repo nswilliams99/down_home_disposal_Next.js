@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -5,6 +6,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Trash2, Calendar, DollarSign, Phone, Mail } from "lucide-react"
 import { FAQ } from "@/components/faq"
 import { LocalBusinessSchema } from "@/components/local-business-schema"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.downhomedisposal.com/",
+  },
+}
 
 export default function Home() {
   const features = [

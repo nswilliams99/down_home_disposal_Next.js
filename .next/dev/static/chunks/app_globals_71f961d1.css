@@ -367,6 +367,10 @@ body {
   margin-top: 3rem;
 }
 
+.mt-3 {
+  margin-top: .75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -377,10 +381,6 @@ body {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-3 {
-  margin-top: .75rem;
 }
 
 .block {
@@ -999,6 +999,10 @@ body {
   opacity: .9;
 }
 
+.opacity-75 {
+  opacity: .75;
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1044,14 +1048,14 @@ body {
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.transition-transform {
-  transition-property: transform;
+.transition-shadow {
+  transition-property: box-shadow;
   transition-duration: .15s;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.transition-shadow {
-  transition-property: box-shadow;
+.transition-transform {
+  transition-property: transform;
   transition-duration: .15s;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
@@ -1201,6 +1205,10 @@ body {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 
 .hover\:shadow-md:hover {

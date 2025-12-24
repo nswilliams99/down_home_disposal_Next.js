@@ -163,6 +163,11 @@ export default function WilliamsonCountyTrashPickupPage() {
               Email Us
             </a>
           </div>
+          <p className="mt-4 text-sm opacity-75">
+            <a href="/" className="underline hover:no-underline">
+              &larr; Back to Down Home Disposal
+            </a>
+          </p>
         </div>
       </section>
 

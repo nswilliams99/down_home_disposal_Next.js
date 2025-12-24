@@ -3,15 +3,15 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://www.downhomedisposal.com',
+      url: 'https://www.downhomedisposal.com/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 1,
+      priority: 1.0,
     },
     {
       url: 'https://www.downhomedisposal.com/service-areas',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://www.downhomedisposal.com/privacy',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.3,
     },
   ]
